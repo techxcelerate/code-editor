@@ -2,10 +2,9 @@
 
 [![Version](https://img.shields.io/badge/Version-0.1.2-blueviolet?style=for-the-badge)](https://github.com/techxcelerate/code-editor/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](https://github.com/techxcelerate/code-editor/releases)
-[![Languages](https://img.shields.io/badge/Languages-Multi--Language-3b9eff?style=for-the-badge)](https://github.com/techxcelerate/code-editor/releases)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](https://github.com/techxcelerate/code-editor)
 
-**techXcelerate Editor** is a highly polished, standalone desktop environment designed for creators, analysts, and developers. Packed with an **integrated multi-language terminal runner** (supporting Rust, C/C++, Java, Python, Go, JS/TS, and more) and integrated with **Agentic AI Assistants**, it provides a high-performance workspace to write, run, and optimize code instantly on your system.
+**techXcelerate Editor** is an automated desktop development environment that combines an intelligent AI programming assistant, a local automation API (Command Server), and an interactive coding practice platform with integrated test validation.
 
 ---
 
@@ -13,35 +12,31 @@
 
 ![techXcelerate Editor Showcase](./product-images/image-v0.1.2.png)
 
-*The ultra-premium glassmorphism workspace featuring Monaco editor, integrated file tree, terminal execution, and context-aware AI chat sidebar.*
+*The premium workspace featuring coding execution, integrated test runner, and context-aware AI chat sidebar.*
 
 ---
 
-## ✨ Core Product Pillars
+## ✨ Core Pillars
 
-### 📦 Universal Code Execution Engine
-* **Click & Run:** Compile and run multiple languages (Rust, C/C++, Java, Go, Python, JavaScript, TypeScript, and more) directly inside the built-in terminal.
-* **Embedded Python Runtime:** Comes pre-packaged with an isolated, zero-setup embedded Python environment for immediate scripting.
-* **Isolated Workspace Context:** Keeps your execution environment perfectly clean and safe from global system dependencies.
+### 🧠 Context-Aware AI Coding Companion
+* **Bring Your Own Key (BYOK):** Connect your **Gemini**, **Groq**, or **Anthropic** API keys for zero-subscription, pay-as-you-go AI capabilities.
+* **Workspace Tool Integration:** The assistant can list directory trees, inspect file contents, and run test suites dynamically to solve programming tasks autonomously.
+* **Tab-Isolated Session Memory:** Keeps independent chat histories for each open tab to prevent context contamination.
 
-### 🧠 Local Agentic AI Coding Assistant
-* **Bring Your Own Key (BYOK):** Seamlessly connect your **Gemini** or **Groq** API keys for zero-subscription, pay-as-you-go AI power.
-* **Context-Aware Pair Programmer:** The AI has full local reading capabilities. Drag and drop files, attach directories, and ask questions about your entire project structure.
-* **Step-by-Step Execution Planner:** Understands compiler/runtime errors, highlights bugs, and drafts optimized solutions dynamically.
+### ⚡ Automation API & Command Server
+* **Secure REST Control Panel:** A local HTTP server that allows external scripts or shell commands to programmatically automate and control the editor.
+* **Remote Operations:** Endpoints to open workspace folders, close files, execute tests, run shell commands in the terminal, read output logs, and open or close sidebar views.
+* **Secure Token Access:** Bearer token authorization checks prevent unauthorized local applications from executing commands.
 
-### ⚡ Developer Friendly Workspace
-* **Modern File Tree CRUD:** Full nested folder and file management. Create, rename, edit, and delete files or folders instantly.
-* **Smart Debounced Autosave:** Saves your progress smoothly after **2.5 seconds** of inactivity, completely protecting you from data loss without lag or system bloat.
-
-### 🎨 High-Fidelity Design Aesthetics
-* **Atmospheric Dark Theme:** Built using customized HSL color systems, smooth gradients, and glassmorphic translucent layers.
-* **Micro-Animations:** Fluid layout transitions, streaming chat bubbles, active tab highlights, and responsive sidebar resizing panels.
+### 🎯 Interactive Practice & Validation
+* **Practice Platform:** Interactive programming challenges built directly into the workspace layout.
+* **Automated Validation:** Runs pre-loaded test suites against user code blocks and reports test success/failure metrics in real-time.
 
 ---
 
 ## 📥 Getting Started (Windows Installation)
 
-Follow these simple steps to install the latest **v0.1.1** production release:
+Follow these simple steps to install the latest **v0.1.2** production release:
 
 1. **Download the Installer:**
    Navigate to our [Releases Page](https://github.com/techxcelerate/code-editor/releases) and download `TechXcelerate-Editor_0.1.2_x64-setup.exe`.
@@ -54,8 +49,8 @@ Follow these simple steps to install the latest **v0.1.1** production release:
 
 ## 🔒 Security & Privacy
 
-* **100% Local Execution:** Your files and source code are stored and executed entirely on your local machine.
-* **Direct LLM Communication:** Your API keys are encrypted and stored inside your local configuration directory. The application communicates directly with Google Gemini and Groq servers—no middleman servers involved.
+* **Local Execution:** Your files and source code are stored and executed entirely on your local machine.
+* **Direct LLM Communication:** Your API keys are stored securely in your local configuration. The application communicates directly with model provider servers—no middleman servers involved.
 
 ---
 
@@ -63,5 +58,5 @@ Follow these simple steps to install the latest **v0.1.1** production release:
 
 For product inquiries, feedback, or custom integrations, feel free to contact us or open an issue in this repository. 
 
-*Developed with ❤️ by the **NTXM**.*
+*Developed by **NTXM**.*
 contact: [contact@ntxm.org]
